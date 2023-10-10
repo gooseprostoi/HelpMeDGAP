@@ -1,0 +1,5 @@
+Анкета
+Username: @{{ form['username'] }}
+Курс: {{ form['course'] }}
+Предмет: {{ form['course'] | get_subject_name(form['subject']) }}
+Описание проблемы: {{ form['description'] }}
